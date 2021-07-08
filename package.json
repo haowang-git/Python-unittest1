@@ -1,0 +1,29 @@
+{
+  "name": "cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "help": "cucumber-js --help",
+    "test:tag": "cucumber-js --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.shensz.local:sale/cucumber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.2.1",
+    "assert": "^2.0.0",
+    "axios": "^0.21.1",
+    "cucumber-html-reporter": "^5.4.0",
+    "knex": "^0.95.4",
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.4"
+  }
+}
